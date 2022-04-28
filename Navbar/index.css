@@ -1,0 +1,47 @@
+.NAVBAR{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+    background-color: rgb(36, 33, 33);
+    width: 95%;
+    border-radius: 10px;
+    margin: auto;
+
+  }
+  .LOGO{
+       padding-right: 400px;
+       color: white;
+
+  }
+  
+  .NAVBAR > div {
+    display: flex;
+  }
+  .text{
+    width: 15%; 
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+  }
+  .USER{
+    width: 10%; 
+
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+  }
+  .USER>h3{
+    margin-left: -40px;
+  
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    /* margin-left: 80px; */
+    gap: 10px;
+  } 
